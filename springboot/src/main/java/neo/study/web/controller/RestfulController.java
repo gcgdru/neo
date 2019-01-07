@@ -19,8 +19,8 @@ public class RestfulController {
 	@RequestMapping("/list")
 	public Map<String, Object> getMap(){
 		Map<String, Object> map = new HashMap<String, Object>();
-		map.put("张倧源","是我大儿子。");
-		map.put("张倧添", "是我小儿子。");
+		map.put("zzy","是我大儿子。");
+		map.put("zzt", "是我小儿子。");
 		return map;
 	}
 	
